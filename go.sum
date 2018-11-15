@@ -8,5 +8,11 @@ github.com/mattn/go-runewidth v0.0.3 h1:a+kO+98RDGEfo6asOGMmpodZq4FNtnGP54yps8Bz
 github.com/mattn/go-runewidth v0.0.3/go.mod h1:LwmH8dsx7+W8Uxz3IHJYH5QSwggIsqBzpuz5H//U1FU=
 github.com/rivo/tview v0.0.0-20181110120306-8cf347b745d0 h1:KSj5BKAHMotvtA12P8in4uPFHQjiAYpIQsiuuhx9f60=
 github.com/rivo/tview v0.0.0-20181110120306-8cf347b745d0/go.mod h1:J4W+hErFfITUbyFAEXizpmkuxX7ZN56dopxHB4XQhMw=
+github.com/tito0224/go-alpha-vantage v0.0.0-20181115031238-6cb8a27d3385 h1:78y9dWzW9z3vB+7rJzsGX9wRDqnIJJYj5Q30NgCcXDE=
+github.com/tito0224/go-alpha-vantage v0.0.0-20181115031238-6cb8a27d3385/go.mod h1:c+412CgViOs0hmq35rxf/ehi+eCcjoUcCXU7W37aX2A=
+golang.org/x/net v0.0.0-20181011144130-49bb7cea24b1/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/net v0.0.0-20181108082009-03003ca0c849/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/net v0.0.0-20181114220301-adae6a3d119a/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+gopkg.in/resty.v1 v1.10.2/go.mod h1:nrgQYbPhkRfn2BfT32NNTLfq3K9NuHRB0MsAcA9weWY=
