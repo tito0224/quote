@@ -25,15 +25,16 @@ func NewApplication() *Application {
 	}
 
 	commandBar := tview.NewInputField().
-		SetPlaceholder("<GO>")
+		SetPlaceholder("<GO>").
+		SetFieldBackgroundColor(tcell.ColorOrange)
 
 	grid := tview.NewGrid().
-		SetRows(1, 1, -1).
+		SetRows(1, -1, 1).
 		SetColumns(0).
 		SetBorders(true).
 		AddItem(commandBar, 0, 0, 1, 1, 0, 0, true).
-		AddItem(messageBox, 1, 0, 1, 1, 0, 0, false).
-		AddItem(pages, 2, 0, 1, 1, 0, 0, false)
+		AddItem(pages, 1, 0, 1, 1, 0, 0, false).
+		AddItem(messageBox, 2, 0, 1, 1, 0, 0, false)
 
 	commandHandler := NewCommandHandler(quoteApp).
 		RegisterCommand(CommandExit{}).
